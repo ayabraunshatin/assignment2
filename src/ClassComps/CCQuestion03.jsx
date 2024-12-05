@@ -7,12 +7,12 @@ export default class CCQuestion3 extends Component {
       width: 100,
     };
   }
-  shrinkMode = (e) => {
+  shrinkMode = () => {
     console.log("Shrink Mode");
     this.setState({ width: 50 });
   };
 
-  fullSizeMode = (e) => {
+  fullSizeMode = () => {
     console.log("Full Screen Mode");
     this.setState({ width: 100 });
   };
